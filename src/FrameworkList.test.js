@@ -42,7 +42,7 @@ describe("rendering the list with props", () => {
     //表示された要素とダミーデータの要素が一致しているかどうか
     expect(frameworkItems).toEqual(dummyItems);
     //no dataという文字列がhtml内に含まれていないことの確認。
-    expect(screen.queryByText("no data")).toBeNull;
+    expect(screen.queryByText("no data")).toBeNull();
 
   })
 })
